@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Erick Julián Fonseca Arias, estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital en la UPSIN.">
+    <title>Erick Fonseca | Portafolio</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+    <!-- Menú -->
+    <header class="navbar">
+        <a href="#inicio" class="logo">Erick Fonseca</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio" data-i18n="navInicio">Inicio</a></li>
+                <li><a href="#sobre-mi" data-i18n="navSobreMi">Sobre mí</a></li>
+                <li><a href="#habilidades" data-i18n="navHabilidades">Habilidades</a></li>
+                <li><a href="#proyectos" data-i18n="navProyectos">Proyectos</a></li>
+                <li><a href="#certificaciones" data-i18n="navCertificaciones">Certificaciones</a></li>
+                <li><a href="#contacto" data-i18n="navContacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="nav-controls">
+            <div class="lang-buttons">
+                <button type="button" class="lang-btn" data-lang="es" aria-label="Español">ES</button>
+                <button type="button" class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                <button type="button" class="lang-btn" data-lang="fr" aria-label="Français">FR</button>
+            </div>
+            <button id="theme-toggle" type="button" aria-label="Cambiar entre modo claro y oscuro">☀️</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Inicio -->
+        <section id="inicio" class="section hero">
+            <p class="greeting" data-i18n="heroEtiqueta">Estudiante de Ingeniería en TI · UPSIN</p>
+            <h1 class="hero-title">Erick Julián Fonseca Arias</h1>
+            <p class="hero-subtitle" data-i18n="carrera">Ingeniería en Tecnologías de la Información e Innovación Digital</p>
+            <p class="hero-desc" data-i18n="heroDesc">Desarrollo web front-end y bases de datos. Soluciones escalables.</p>
+            <ul class="tags hero-tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java</li>
+                <li>Kotlin</li>
+                <li>MySQL</li>
+            </ul>
+            <div class="buttons">
+                <a href="#proyectos" class="btn btn-primary" data-i18n="verProyectos">Ver proyectos</a>
+                <a href="#contacto" class="btn btn-secondary" data-i18n="contactarme">Contactarme</a>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="section">
+            <h2 class="section-title" data-i18n="navSobreMi">Sobre mí</h2>
+            <p class="section-subtitle" data-i18n="sobreMiSub">Quién soy y qué estudio</p>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3 data-i18n="saludo">Hola, soy Erick</h3>
+                    <p data-i18n="sobreMiTexto">Soy estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital en la <strong>Universidad Politécnica de Sinaloa (UPSIN)</strong>. Me gusta crear soluciones digitales para resolver problemas reales, sobre todo con bases de datos y desarrollo front-end.</p>
+                    <dl class="about-data">
+                        <div>
+                            <dt data-i18n="universidad">Universidad</dt>
+                            <dd>Universidad Politécnica de Sinaloa (UPSIN)</dd>
+                        </div>
+                        <div>
+                            <dt data-i18n="cuatrimestre">Cuatrimestre</dt>
+                            <dd data-i18n="cuarto">Cuarto</dd>
+                        </div>
+                        <div>
+                            <dt data-i18n="generacion">Generación</dt>
+                            <dd>2025-2028</dd>
+                        </div>
+                    </dl>
+                    <div class="buttons">
+                        <a href="archivos/CV_ErickFonseca.pdf" download="CV_ErickFonseca.pdf" class="btn btn-primary" data-i18n="descargarCv">Descargar CV</a>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="imagenes/erick.jpg" alt="Fotografía de Erick Julián Fonseca Arias" data-i18n-alt="altFoto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="section">
+            <h2 class="section-title" data-i18n="navHabilidades">Habilidades</h2>
+            <p class="section-subtitle" data-i18n="habilidadesSub">Lenguajes, herramientas e idiomas que manejo</p>
+            <div class="skills-grid">
+                <article class="card">
+                    <h3 data-i18n="lenguajes">Lenguajes</h3>
+                    <ul class="tags">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>Kotlin</li>
+                        <li>MySQL</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3 data-i18n="herramientas">Herramientas</h3>
+                    <ul class="tags">
+                        <li>Figma</li>
+                        <li>Android Studio</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3 data-i18n="idiomas">Idiomas</h3>
+                    <ul class="tags">
+                        <li data-i18n="espanolNativo">Español (nativo)</li>
+                        <li data-i18n="inglesB2">Inglés (B2)</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Proyectos -->
+        <section id="proyectos" class="section">
+            <h2 class="section-title" data-i18n="navProyectos">Proyectos</h2>
+            <p class="section-subtitle" data-i18n="proyectosSub">Trabajos que he desarrollado en la carrera</p>
+            <div class="projects-grid">
+                <article class="card project-card">
+                    <ul class="tags">
+                        <li data-i18n="prototipo">Prototipo</li>
+                        <li data-i18n="trabajoEquipo">Trabajo en equipo</li>
+                        <li>Java</li>
+                    </ul>
+                    <h3>CisConstructora</h3>
+                    <p data-i18n="cisDesc">Sistema para constructoras que calcula los materiales de cada obra y controla el inventario, las herramientas y la maquinaria.</p>
+                    <div class="project-images">
+                        <img src="imagenes/cisconstructora1.jpg" alt="Captura 1 de CisConstructora" data-i18n-alt="altCis1">
+                        <img src="imagenes/cisconstructora2.jpg" alt="Captura 2 de CisConstructora" data-i18n-alt="altCis2">
+                    </div>
+                    <h4 data-i18n="problema">Problema</h4>
+                    <p data-i18n="cisProblema">En una obra es difícil saber si el material que se usa de verdad coincide con el que se debería usar.</p>
+                    <h4 data-i18n="solucion">Solución</h4>
+                    <p data-i18n="cisSolucion">El sistema calcula cuánto material necesita la obra y limita las salidas del inventario a esa cantidad.</p>
+                </article>
+
+                <article class="card project-card">
+                    <ul class="tags">
+                        <li data-i18n="sitioWeb">Sitio web</li>
+                        <li>E-commerce</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <h3>Los Pollos Hermanos</h3>
+                    <p data-i18n="pollosDesc">Sitio web e-commerce de un restaurante de pollos, programado en HTML y CSS.</p>
+                    <div class="project-images">
+                        <img src="imagenes/pollos.png" alt="Página de inicio del sitio Los Pollos Hermanos" data-i18n-alt="altPollos1">
+                        <img src="imagenes/polloshermanos.png" alt="Menú del sitio Los Pollos Hermanos" data-i18n-alt="altPollos2">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Certificaciones -->
+        <section id="certificaciones" class="section">
+            <h2 class="section-title" data-i18n="navCertificaciones">Certificaciones</h2>
+            <p class="section-subtitle" data-i18n="certificacionesSub">Constancias que respaldan mis conocimientos</p>
+            <div class="cert-grid">
+                <article class="card">
+                    <p class="cert-year">2026</p>
+                    <h3 data-i18n="toefl">TOEFL ITP · Nivel B2</h3>
+                    <p data-i18n="ingles">Inglés</p>
+                    <div class="project-images">
+                        <img src="imagenes/toefl.jpeg" alt="Imagen del certificado" data-i18n-alt="altCertificado">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="section">
+            <h2 class="section-title" data-i18n="navContacto">Contacto</h2>
+            <p class="section-subtitle" data-i18n="contactoSub">¿Tienes una propuesta, una duda o un proyecto en mente? Escríbeme por correo.</p>
+            <div class="contact-grid">
+                <a href="mailto:2025030358@upsin.edu.mx" class="card contact-card">
+                    <h3 data-i18n="correo">Correo institucional</h3>
+                    <p>2025030358@upsin.edu.mx</p>
+                </a>
+                <div class="card contact-card contact-soon">
+                    <h3>GitHub</h3>
+                    <p data-i18n="proximamente">Próximamente</p>
+                </div>
+                <div class="card contact-card contact-soon">
+                    <h3>LinkedIn</h3>
+                    <p data-i18n="proximamente">Próximamente</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="pie">© 2026 Erick Julián Fonseca Arias. Hecho con HTML, CSS y JavaScript.</p>
+        <a href="#inicio" data-i18n="volverArriba">Volver arriba ↑</a>
+    </footer>
+
+    <script>
+        /* Cambia entre modo oscuro y claro */
+        const themeToggleBtn = document.getElementById('theme-toggle');
+
+        themeToggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('light-mode');
+
+            if (document.body.classList.contains('light-mode')) {
+                themeToggleBtn.textContent = '🌙';
+            } else {
+                themeToggleBtn.textContent = '☀️';
+            }
+        });
+
+        /* Traducciones. El español se toma directo del HTML de arriba */
+        const traducciones = {
+            en: {
+                titulo: 'Erick Fonseca | Portfolio',
+                navInicio: 'Home',
+                navSobreMi: 'About me',
+                navHabilidades: 'Skills',
+                navProyectos: 'Projects',
+                navCertificaciones: 'Certifications',
+                navContacto: 'Contact',
+                heroEtiqueta: 'IT Engineering student · UPSIN',
+                carrera: 'Information Technology and Digital Innovation Engineering',
+                heroDesc: 'Front-end web development and databases. Scalable solutions.',
+                verProyectos: 'View projects',
+                contactarme: 'Contact me',
+                sobreMiSub: 'Who I am and what I study',
+                saludo: 'Hi, I\'m Erick',
+                sobreMiTexto: 'I am an Information Technology and Digital Innovation Engineering student at the <strong>Universidad Politécnica de Sinaloa (UPSIN)</strong>. I like creating digital solutions to solve real problems, especially with databases and front-end development.',
+                universidad: 'University',
+                cuatrimestre: 'Term',
+                cuarto: 'Fourth',
+                generacion: 'Class',
+                descargarCv: 'Download CV',
+                altFoto: 'Photo of Erick Julián Fonseca Arias',
+                habilidadesSub: 'Languages, tools and spoken languages I work with',
+                lenguajes: 'Programming languages',
+                herramientas: 'Tools',
+                idiomas: 'Languages',
+                espanolNativo: 'Spanish (native)',
+                inglesB2: 'English (B2)',
+                proyectosSub: 'Work I have developed during my degree',
+                prototipo: 'Prototype',
+                trabajoEquipo: 'Team project',
+                cisDesc: 'System for construction companies that calculates the materials for each project and manages inventory, tools and machinery.',
+                altCis1: 'CisConstructora screenshot 1',
+                altCis2: 'CisConstructora screenshot 2',
+                problema: 'Problem',
+                cisProblema: 'On a construction site, it is hard to know whether the material actually used matches the material that should be used.',
+                solucion: 'Solution',
+                cisSolucion: 'The system calculates how much material the project needs and limits inventory withdrawals to that amount.',
+                sitioWeb: 'Website',
+                pollosDesc: 'E-commerce website for a chicken restaurant, built with HTML and CSS.',
+                altPollos1: 'Home page of the Los Pollos Hermanos website',
+                altPollos2: 'Menu of the Los Pollos Hermanos website',
+                certificacionesSub: 'Credentials that back up my knowledge',
+                toefl: 'TOEFL ITP · Level B2',
+                ingles: 'English',
+                altCertificado: 'Image of the certificate',
+                contactoSub: 'Do you have a proposal, a question or a project in mind? Send me an email.',
+                correo: 'University email',
+                proximamente: 'Coming soon',
+                pie: '© 2026 Erick Julián Fonseca Arias. Built with HTML, CSS and JavaScript.',
+                volverArriba: 'Back to top ↑'
+            },
+            fr: {
+                titulo: 'Erick Fonseca | Portfolio',
+                navInicio: 'Accueil',
+                navSobreMi: 'À propos',
+                navHabilidades: 'Compétences',
+                navProyectos: 'Projets',
+                navCertificaciones: 'Certifications',
+                navContacto: 'Contact',
+                heroEtiqueta: 'Étudiant en ingénierie des TI · UPSIN',
+                carrera: 'Ingénierie des technologies de l\'information et de l\'innovation numérique',
+                heroDesc: 'Développement web front-end et bases de données. Solutions évolutives.',
+                verProyectos: 'Voir les projets',
+                contactarme: 'Me contacter',
+                sobreMiSub: 'Qui je suis et ce que j\'étudie',
+                saludo: 'Bonjour, je suis Erick',
+                sobreMiTexto: 'Je suis étudiant en ingénierie des technologies de l\'information et de l\'innovation numérique à l\'<strong>Universidad Politécnica de Sinaloa (UPSIN)</strong>. J\'aime créer des solutions numériques pour résoudre de vrais problèmes, surtout avec les bases de données et le développement front-end.',
+                universidad: 'Université',
+                cuatrimestre: 'Quadrimestre',
+                cuarto: 'Quatrième',
+                generacion: 'Promotion',
+                descargarCv: 'Télécharger le CV',
+                altFoto: 'Photo d\'Erick Julián Fonseca Arias',
+                habilidadesSub: 'Langages, outils et langues que je maîtrise',
+                lenguajes: 'Langages',
+                herramientas: 'Outils',
+                idiomas: 'Langues',
+                espanolNativo: 'Espagnol (langue maternelle)',
+                inglesB2: 'Anglais (B2)',
+                proyectosSub: 'Travaux réalisés pendant ma formation',
+                prototipo: 'Prototype',
+                trabajoEquipo: 'Projet d\'équipe',
+                cisDesc: 'Système pour les entreprises de construction qui calcule les matériaux de chaque chantier et gère l\'inventaire, les outils et les engins.',
+                altCis1: 'Capture d\'écran 1 de CisConstructora',
+                altCis2: 'Capture d\'écran 2 de CisConstructora',
+                problema: 'Problème',
+                cisProblema: 'Sur un chantier, il est difficile de savoir si le matériel réellement utilisé correspond à celui qui devrait l\'être.',
+                solucion: 'Solution',
+                cisSolucion: 'Le système calcule la quantité de matériel nécessaire au chantier et limite les sorties d\'inventaire à cette quantité.',
+                sitioWeb: 'Site web',
+                pollosDesc: 'Site e-commerce d\'un restaurant de poulet, réalisé en HTML et CSS.',
+                altPollos1: 'Page d\'accueil du site Los Pollos Hermanos',
+                altPollos2: 'Menu du site Los Pollos Hermanos',
+                certificacionesSub: 'Attestations qui valident mes connaissances',
+                toefl: 'TOEFL ITP · Niveau B2',
+                ingles: 'Anglais',
+                altCertificado: 'Image du certificat',
+                contactoSub: 'Vous avez une proposition, une question ou un projet en tête ? Écrivez-moi par courriel.',
+                correo: 'Courriel universitaire',
+                proximamente: 'Bientôt disponible',
+                pie: '© 2026 Erick Julián Fonseca Arias. Réalisé en HTML, CSS et JavaScript.',
+                volverArriba: 'Retour en haut ↑'
+            }
+        };
+
+        /* Guarda el texto original en español para poder regresar a él */
+        const textos = document.querySelectorAll('[data-i18n]');
+        const imagenes = document.querySelectorAll('[data-i18n-alt]');
+        const langButtons = document.querySelectorAll('.lang-btn');
+        const tituloOriginal = document.title;
+
+        textos.forEach((elemento) => {
+            elemento.dataset.es = elemento.innerHTML;
+        });
+
+        imagenes.forEach((imagen) => {
+            imagen.dataset.es = imagen.alt;
+        });
+
+        function cambiarIdioma(idioma) {
+            const lista = traducciones[idioma];
+
+            document.documentElement.lang = idioma;
+            document.title = lista ? lista.titulo : tituloOriginal;
+
+            textos.forEach((elemento) => {
+                elemento.innerHTML = lista ? lista[elemento.dataset.i18n] : elemento.dataset.es;
+            });
+
+            imagenes.forEach((imagen) => {
+                imagen.alt = lista ? lista[imagen.dataset.i18nAlt] : imagen.dataset.es;
+            });
+
+            langButtons.forEach((boton) => {
+                const activo = boton.dataset.lang === idioma;
+                boton.classList.toggle('active', activo);
+                boton.setAttribute('aria-pressed', activo);
+            });
+
+            /* Recuerda el idioma para la próxima visita */
+            try {
+                localStorage.setItem('idioma', idioma);
+            } catch (error) {
+                /* Si el navegador no deja guardar, el sitio sigue funcionando */
+            }
+        }
+
+        langButtons.forEach((boton) => {
+            boton.addEventListener('click', () => cambiarIdioma(boton.dataset.lang));
+        });
+
+        let idiomaGuardado = 'es';
+
+        try {
+            idiomaGuardado = localStorage.getItem('idioma') || 'es';
+        } catch (error) {
+            idiomaGuardado = 'es';
+        }
+
+        cambiarIdioma(idiomaGuardado);
+    </script>
+</body>
+</html>
